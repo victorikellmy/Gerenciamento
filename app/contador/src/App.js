@@ -14,8 +14,8 @@ function App() {
   return (
     <div>
       <h1>{numero}</h1><br/>
-      <button onClick={diminuir}>-</button>
-      <button onClick={adicionar} >+</button>
+      <button onClick={diminuir}>Diminuir</button>
+      <button onClick={adicionar} >Adiconar</button>
     </div>
   );
 }
